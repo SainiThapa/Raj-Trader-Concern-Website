@@ -1,0 +1,306 @@
+body{
+    padding: 5px;
+    margin: 0;
+}
+.header-container{
+    position:relative;
+    width: 100%;
+    height: 150px;
+}
+
+.header img{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    z-index: 0;
+}
+.nav-bar{
+    display: flex;
+    width: 100%;
+    height:150px;
+    padding: 0 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+.com-logo img{
+    width: 100px;
+    border-radius: 15px;
+    object-fit: contain;
+}
+.nav-option{
+    margin-left: 100px;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 20px;
+    width: fit-content;
+}
+
+
+.nav-option ul li{
+    list-style-type: none;
+    display: inline-flex;
+    margin-inline-end: 20px;
+}
+.nav-option ul li a{
+    color: white;
+    text-decoration: none;
+}
+.social-media-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+.ellipse-bg1,.ellipse-bg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 60px;
+    object-fit: contain;
+    z-index: 0;
+}
+.ellipse-bg2{
+    background-color: white;
+}
+.ellipse-bg1{
+    background-color: black;
+}
+
+.ellipse-bg1 img,.ellipse-bg2 img{
+    width: 70px;
+    object-fit: contain;
+}
+
+.body-container{
+margin:0;
+}
+.image-container{
+    background-image: url("/public/chemistry-1@2x.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-text h1{
+    color:white;
+    font-size: 102px;
+}
+.rect-info{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    position:absolute;
+    margin-top:-5%;
+}
+.rectangle-content{
+    width: 17%;
+    height: 150px;
+    padding: 20px 0;
+    margin-inline-end: 5%;
+    text-align: center;
+    background-color: #1a1c4c;
+}
+.rectangle-content h2{
+    color:whitesmoke;
+}
+
+.about-container{
+    position: initial;
+    display: flex;
+    margin-top:150px;
+    gap:20px;
+    overflow: hidden;
+}
+.about-us{
+    background-image: url("/public/rectangle-69@2x.png");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    padding-left:20px;
+    padding-top:20px;
+    display: flex;
+}
+.about-title{
+    align-self: flex-start;
+    flex:1;
+}
+.about-title h1{
+    font-size: 48px;
+}
+.about1{
+    color:rgb(142, 35, 219);
+}
+.about2{
+    color:rgb(176, 132, 207);
+}
+.about3{
+    color:rgb(218, 172, 251);
+}
+
+.about-paragraph{
+    align-self: flex-start;
+    flex:1;
+    justify-content: center;
+    width: 100%;
+}
+.about-paragraph p{
+    font-size: 28px;
+    color:#3c3d81;
+    font-weight: 600;
+}
+
+.products-container{
+    margin-top: 150px;
+}
+.our-product{
+    background-image: url(/public/whitesparklebackground1920x1080wzjzged6lh2r9a5t-1@2x.png);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+.product-title{
+    padding-top: 7%;
+    text-align: center;
+    font-size: 36px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.product1{
+    color:rgb(112, 144, 112);
+}
+.product2{
+    color:rgb(180, 197, 113);
+}
+.product3{
+    color: rgb(218, 218, 105);
+}
+
+.product-category{
+    margin-top:50px;
+    max-width:100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product-category ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+.product-category ul li{
+    margin-inline-end: 20px;
+    font-size: 24px;
+    padding: 10px;
+    border: 3px solid red;
+}
+.product-category ul li a{
+    text-decoration: none;
+    color:black;
+}
+.product-category ul li:hover{
+    transition:0.5s;
+    transform:scale(1.05);
+    background-color: rgb(178, 221, 200);
+}
+
+.product-catalog{
+    display: flex;
+    flex-direction: row;
+    gap:2%;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    box-sizing: border-box;
+}
+.product-container{
+    padding:5% 0;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 218, 185, 0.518);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product-card1,.product-card2,.product-card3,.product-card4{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    background-color: rgb(199, 198, 198);
+    padding: 20px;
+    box-sizing:border-box;
+}
+.product-card1{
+    background-color: rgb(182, 76, 76);
+}
+.product-card2{
+    background-color: rgb(62, 35, 13);
+}
+.product-card4{
+    background-color: rgb(66, 66, 82);
+}
+
+.product-container img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.message-container{
+    display: flex;
+    margin-top: 150px;
+    padding: 20px;
+    align-self: flex-start;
+    box-sizing: border-box;
+}
+.md-img{
+    flex:0 0 407px;
+    height: 731px;
+}
+.md-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.md-message{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1a1c4c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.message-title{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.message-body{
+    flex:1;
+    padding:20px;
+    font-size: 20px;
+    box-sizing:border-box;
+}
+
+.message-footer{
+    text-align: right;
+    padding-right:10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}

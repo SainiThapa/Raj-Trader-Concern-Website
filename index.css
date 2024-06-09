@@ -1,18 +1,22 @@
+body{
+  padding:0 3%;
+}
 .chemistry-1-icon,
 .instance-child {
-  width: 100%;
+  width: 100%;  
   position: absolute;
   margin: 0 !important;
   right: 0;
   left: 0;
-  max-width: 100%;
+  object-fit: contain;
   overflow: hidden;
 }
 .chemistry-1-icon {
-  height: 1044px;
+  width: 100%;
   top: 98px;
   flex-shrink: 0;
-  object-fit: cover;
+  object-fit: contain;
+  overflow: hidden;
 }
 .instance-child {
   height: 100%;
@@ -38,7 +42,9 @@
 .instance-item,
 .letter-1-icon {
   position: absolute;
-  height: 100%;
+  height: 80%;
+  border-radius: 15px;
+  margin-left: 10px;
   top: 0;
   bottom: 0;
 }
@@ -51,20 +57,17 @@
 }
 .letter-1-icon {
   width: 185.18%;
-  right: -41.96%;
-  left: -43.21%;
-  border-radius: 40px;
   max-width: 100%;
+  border-radius: 50px;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
   z-index: 1;
 }
 .rectangle-parent {
-  height: 114px;
-  width: 112px;
+  height: 100px;
+  width: 100px;
   position: relative;
-  border-radius: 30px;
   overflow: hidden;
   flex-shrink: 0;
   z-index: 1;
@@ -183,8 +186,7 @@
   min-width: 867px;
 }
 .frame-child {
-  height: 114px;
-  width: 112px;
+  width: 70px;
   position: relative;
   border-radius: 60px;
   object-fit: contain;
@@ -202,14 +204,8 @@
   background-color: #c4c4c4;
 }
 .social-media-1-icon {
+  width: 70px;
   position: absolute;
-  height: calc(100% - 23.7px);
-  width: 63.84%;
-  top: 12.2px;
-  right: 16.87%;
-  bottom: 11.5px;
-  left: 19.29%;
-  max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: contain;
@@ -259,7 +255,7 @@
   z-index: 1;
 }
 .instance-container,
-.instance-group {
+.instance-group {  
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
