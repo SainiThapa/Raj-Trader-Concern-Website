@@ -304,3 +304,158 @@ margin:0;
     font-weight: bold;
     margin-top: 20px;
 }
+
+.our-valuable-clients{
+    margin-top:250px;
+    height: max-content;
+    background-color: rgb(194, 192, 192);
+    text-align: center;
+}
+.our-valuable-clients h1{
+    padding-top:5%;
+    color: rgb(0, 255, 30);
+    text-shadow: 0 1px rgba(0, 0, 0, 0.386);
+}
+
+.client1{
+ color: rgb(0, 155, 70);
+}
+.client2{
+    color: rgb(0,140,90);
+}
+.client3{
+    color: rgb(2, 124, 82);
+}
+.client4{
+    color: rgb(0,120,120);
+}
+
+
+.marquee-img{
+    padding: 7%;
+    height:fit-content;
+}
+.marquee-img img{
+    width: 300px;
+    height: 300px;
+    margin-inline-end: 15px;
+}
+
+.FAQ-container{
+    margin-top: 150px;
+    padding: 2%;
+    text-align: center;
+}
+.FAQ-container h1{
+    font-family: 'Times New Roman';
+    font-weight: 600;
+    font-size: 48px;
+    color:rgb(2, 186, 246);
+}
+.FAQ-box{
+    display: flex;
+    text-align: left;
+    width: 50%;
+    height: max-content;
+    background-color:rgb(127, 225, 255);
+    box-shadow: 1px 1px black;
+    padding: 10px;
+    margin: 30px;
+}
+.FAQ-box:hover{
+    cursor: pointer;
+}
+.FAQ-box h1{
+    color: black;
+    font-size: 30px;
+}
+.FAQ-box img{
+    margin-left: auto;
+    width: 40px;
+}
+
+.scan-me{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(1, 179, 250);
+    margin-top: 100px;
+    width: 60%;
+    border-radius: 15px;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+}
+.scan-me img{
+    width: 300px;
+    object-fit: contain;
+}
+
+.scan-me h1{
+    color: black;
+    margin:auto;
+}
+
+.contact-container{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    width: 80%;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.contact-container h1{
+    color: grey;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.contact-form{
+    display: flex;
+}
+.inquiry-form{
+    margin-right: auto;
+}
+.inquiry-form input{
+    background-color: rgb(77, 231, 255);
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    display: block;
+    margin:30px;
+    font-size:28px;
+}
+.map-img{
+    overflow: hidden;
+}
+
+.map-img img{
+    width: 400px;
+    object-fit: contain;
+}
+
+.submit input{
+    background-color: #1a1c4c;
+    font-size: 24px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.view-larger-map{
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: white;
+    position: absolute;
+}
+
+.footer-container{
+    margin-top: 150px;
+    width: 100%;
+}
+
+.footer-img img{
+    position: absolute;
+    height: max-content;
+    width: 100%;
+    z-index: 0;
+}
