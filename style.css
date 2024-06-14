@@ -450,12 +450,60 @@ margin:0;
 
 .footer-container{
     margin-top: 150px;
+    height:fit-content;
     width: 100%;
 }
 
-.footer-img img{
-    position: absolute;
-    height: max-content;
+
+.footer-section{
+    background-image: url("/public/group-1.svg");
+    background-size: cover;
+    color:white;
+    display: flex;
+    z-index: 1;
+}
+.footer-block3 h1,.footer-block2 h1,.footer-block1 h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(254, 254, 92);
+}
+
+.footer-block,.footer-block1,.footer-block2,.footer-block3{
+    padding: 3% 1%;
+    width: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.footer-block img{
+
+    width:150px;
+    margin-bottom:20px;
+}
+
+.footer-block p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.footer-block1{
+    text-align: center;
+}
+
+.footer-block1 ul li,.footer-block2 ul li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.footer-block1 ul li a, .footer-block2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright{
     width: 100%;
-    z-index: 0;
+    background-color: #1a1c4c;
+    color: white;
+    margin-top:-10px ;
+    text-align: center;
 }
